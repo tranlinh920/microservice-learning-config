@@ -7,3 +7,11 @@ eureka:
   instance:
     hostname: localhost
   
+ management: # spring actuator
+  endpoints:
+    web:
+      exposure:
+        include:
+          - refresh
+          - busrefresh
+          - busenv
