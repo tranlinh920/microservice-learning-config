@@ -6,12 +6,3 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
     hostname: localhost
-  
- management: # spring actuator
-  endpoints:
-    web:
-      exposure:
-        include:
-          - refresh
-          - busrefresh
-          - busenv
