@@ -8,4 +8,4 @@ eureka:
     hostname: localhost
     
 toi:
-  ten: linh
+  ten: tran linh
